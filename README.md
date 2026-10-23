@@ -1,10 +1,18 @@
-Private key is the key that one must not share.When someone gets it he or she will have access to the your github account or even the server.
-git commit - saves changes to my local repository while git push  uploads your commits or changes to GitHub.After git commit i will not see any change on my GitHub since you have not push the changes to the GitHub.
-To keep things neat and makes it easy to find what you are looking for. This commands checks if your work is tidy find ~ -maxdepth 1 -type f ! -name '.*'
-touch scratch.txt when you run this command the prompt show a ? which means that there is anew file that git is not tracking.Unpushed commits is an upward arrow ,meaning that you need to upload your commit to the server. The changes are only on your local repository.
-Hi jeronosheryl11-web! You've successfully authenticated, but GitHub does not provide shell access.A permission denied(publickey) means that the local server does not recognise your public key. 
-Authentication verifies who iam in that my SSH key proves my identity  when i connect to the Git server while authorization is what im allowed to do  its like permission .Using scm.quatrixglobal.com as the example my SSH key performs authentication while the Git repository permissions performs the authorization whether you can push to the repo.
-one-time passcode -  relies on something you have.(2)Pin relies on someting you know.(3)Fingerprint relies on something you are.
-SSH -authentication uses an ssh key .The public key is added to the Git server while the private key stays on your computer secrectly . In HTTPS -authentication  usually uses a username and personal access tokens instead of account password.I would  prefer to use the SSH i authentication bacause once it has been configured there is no need to constanly  copy, paste or manage tokens.
-it uses SSH method.if you want to switch from SSH to HTTPS you will use this command git remote set-url origin https://scm.quatrixglobal.com/username/repository.git .
+1.Private key is the key that one must not share.When someone gets it he or she will have access to the your github account or even the server.
+
+2.Git commit - saves changes to my local repository while git push  uploads your commits or changes to GitHub.After git commit i will not see any change on my GitHub since you have not push the changes to the GitHub.
+
+3.To keep things neat and makes it easy to find what you are looking for. This commands checks if your work is tidy find ~ -maxdepth 1 -type f ! -name '.*'
+
+4.Touch scratch.txt when you run this command the prompt show a ? which means that there is anew file that git is not tracking.Unpushed commits is an upward arrow ,meaning that you need to upload your commit to the server. The changes are only on your local repository.
+
+5.Hi jeronosheryl11-web! You've successfully authenticated, but GitHub does not provide shell access.A permission denied(publickey) means that the local server does not recognise your public key. 
+
+6.Authentication verifies who iam in that my SSH key proves my identity  when i connect to the Git server while authorization is what im allowed to do  its like permission .Using scm.quatrixglobal.com as the example my SSH key performs authentication while the Git repository permissions performs the authorization whether you can push to the repo.
+
+7.One-time passcode -  relies on something you have.(2)Pin relies on someting you know.(3)Fingerprint relies on something you are.
+
+8.SSH -authentication uses an ssh key .The public key is added to the Git server while the private key stays on your computer secrectly . In HTTPS -authentication  usually uses a username and personal access tokens instead of account password.I would  prefer to use the SSH i authentication bacause once it has been configured there is no need to constanly  copy, paste or manage tokens.
+
+9.It uses SSH method.if you want to switch from SSH to HTTPS you will use this command git remote set-url origin https://scm.quatrixglobal.com/username/repository.git .
 
