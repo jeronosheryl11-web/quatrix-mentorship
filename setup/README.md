@@ -78,3 +78,19 @@ usually uses a username and personal access tokens instead of account password.
 - **Checking the remote**:Run `git remote -v`.It uses **SSH** because the URL starts with `gitgit@github.com:jeronosheryl11-web/quatrix-mentorship.git`.
 - **Switching command**:Run ` git remote set-url origin git@scm.quatrixglobal.com:quatrix-education/quatrix-mentor.git` to switch
 
+## My Personal Notes.
+
+### How to do a git push
+- stage your answers
+   ```
+   git add README.md
+   ```
+- commit your changes
+   ```
+   git commit -m "setup answers"
+   ```
+-push your changes
+   ```
+   git push
+   ```
+   
