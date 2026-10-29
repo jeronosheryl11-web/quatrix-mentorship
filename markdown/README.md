@@ -57,4 +57,94 @@ I will review one of the answers after completing the **Bash Module**.I will che
 
    
 
+## MY PERSONAL NOTES.
+
+### 1. Headings.
+- use the symbol **#**:
+```
+# Main heading
+## second -level heading
+### third-level heading
+```
+**space after the # **.
+
+### 2. Text formating.
+```
+**text**
+*itallic*
+***text***
+~~strikethrough~~
+```
+- two asterisk - means bolding the text.
+- single asterisk - italic.
+- three asterisk -bold and italic.
+- strikethrough -puts a line through the text.
+
+
+### 3. code blocks.
+- Inline code:
+  - uses single backticks within a sentence.
+  - use `pwd` to where you are.
+- Fenced block:
+  - uses three backticks.
+  - one can be able to copy the code.
+  ```
+  git status
+  git add
+  ```
+
+### 4. lists
+- Numbered list:
+```
+1. first class.
+2. second class
+```
+- **there is a space after the period.**
+
+- Nested list:
+```
+- fruits
+  - mangoes
+  -bananas
+- vegetable
+  - spinach
+```
+- task list:
+```
+- [x] create a README.md
+- [ ] finish the bash module
+```
+- [x] means completed.
+- [ ] not yet completed.
+
+
+### 5. Links and images.
+``` 
+[markdown answers](markdown/README.md)
+```
+
+### 6. tables.
+```
+|Authentication method|Category|Relies on|
+|---|---|---|
+|One-time passcode|something you have|  relies on possession of a registered device|
+|Pin|someting you know| relies on secret information known to the user |
+|Fingerprint|something you are| relies on unique physical appearance used by mobile phones |
+```
+### 7. quotes and alert blocks
+- the blockquote starts with >.
+```
+> Remember to write your notes.
+
+- alert block
+```
+> [!Note]
+> Remember to write your notes.
+
+
+
+
+
+
+
 
