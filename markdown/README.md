@@ -135,9 +135,9 @@ I will review one of the answers after completing the **Bash Module**.I will che
 - the blockquote starts with >.
 ```
 > Remember to write your notes.
-
-- alert block
 ```
+- alert block
+
 > [!Note]
 > Remember to write your notes.
 
